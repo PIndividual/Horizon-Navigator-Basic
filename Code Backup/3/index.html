@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home | Horizon Navigator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    
+    <!-- Here is the navbar, where I have the logo and the 3 major links on my microsite separated as 2 different classes for easier position management -->
+    <div class="navbar">
+      <div class="logo">
+        <a href="index.html">
+          <img src="logo.png" alt="Logo" class="logo">
+        </a>
+      </div>
+      <div class="nav-links">
+        <!-- For selected page on the navbar, will have a separate class called "active", so it is now easier to find where the user is-->
+        <a href="index.html" class="active">Home</a>
+        <a href="discover.html">Discover</a>
+        <a href="timeline.html">Timeline</a>
+      </div>
+  </div>
+  
+
+    <!-- To make sure I have good control of the looping video, I set it up with a class -->
+  <div class="video-container">
+    <!-- From https://www.w3schools.com/tags/tag_video.asp-->
+    <video autoplay loop muted >
+      <source src="vid.mp4" type="video/mp4">
+    </video>
+    <!-- To make sure the texts are sharp and sticks to the same position on the video the all time, I set up a new div for them -->
+    <!-- These are essentially h1 and h2, but I used a specific name for them so it is easier to locate them in css-->
+    <vidTitle>Welcome to Horizon Navigator</vidTitle>
+    <vidSub>Discover, familiarise and explore</vidSub>
+  </div>
+  
+  <div class="Description">
+        <!-- I have texts and images to different divs with different class names so it is easier for alignment-->
+    <div class="Destext">
+      <h1>About</h1>
+      <p>With over 21 million residents, Beijing is the world's most populous national capital city as well as China's second largest city after Shanghai. It is located in Northern China, and is governed as a municipality under the direct administration of the State Council with 16 urban, suburban, and rural districts. Beijing is mostly surrounded by Hebei Province with the exception of neighboring Tianjin to the southeast; together, the three divisions form the Jingjinji megalopolis and the national capital region of China.</p>
+    </div>
+    <div class="Desimage">
+      <img src="homedes.jpg" alt="image of Beijing at home page">
+    </div>
+  </div>
+  <div class="Context">
+    <h1>You may be interested</h1>
+      <!--I made images to hyperlinks so by clicking them, you will go right to the target page to find out more -->
+    <div class="Reimg">
+        <!-- target="_blank" makes sure that the link will open on a new window, so the current page won't be overwritten -->
+        <!-- The idea comes from https://www.w3schools.com/tags/att_a_target.asp -->
+        <!-- Please be advised that as I'm introducing the capital city of China, the link will most likely be directed to a Mandarin page -->
+      <a href="https://www.dpm.org.cn/Home.html/" target="_blank">
+        <img src="Re1.png" alt="The Palace Museum">
+      </a>
+      <a href="https://www.summerpalace-china.com/" target="_blank">
+        <img src="Re2.png" alt="The Summer Palace">
+      </a>
+    </div>    
+    <div class="totop">
+      <!--The idea of jump to top comes from https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#attr-href -->
+      <a href="#">
+        <img src="top.png" alt="To the top">
+    </div>
+  </div>
+  <img src="bottom.png" alt="Background" class="BG">
+
+  </body>
+</html>

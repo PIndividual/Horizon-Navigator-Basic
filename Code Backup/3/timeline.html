@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Timeline | Horizon Navigator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    
+   
+    <div class="navbar">
+      <div class="logo">
+        <a href="index.html">
+          <img src="logo.png" alt="Logo" class="logo">
+        </a>
+      </div>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="discover.html">Discover</a>
+        <!-- Since we are on the timeline page, timeline has the "active" class-->
+        <a href="timeline.html" class="active">Timeline</a>
+      </div>
+    </div>
+    <div class="Context">
+        <h1>Feburary, 2023</h1>
+        <h2>3 events available</h2>
+        <p>Use the slider below to select a month</p>
+         <!-- My initial plan was to make the month on the title change as the slider changes, but it ended up requiring javascript to listen for the slider thumb position, so I only built the slider, without its actual function-->
+        <div class="slider-container">
+            <!-- As the title goes for February and there are 12 months in a year, we have 12 values available and the default value is 2-->
+            <input type="range" min="1" max="12" value="2" step="1" id="month" class="slider">
+        </div>          
+        <div class="Reimg">
+            <!-- Similar to the home page, the images serve as hyperlinks that enable the user to find out more about the event-->
+            <a href="https://www.visitbeijing.com.cn/article/47QkpTIr3EN" target="_blank">
+              <img src="Act1.png" alt="Ice lake">
+            </a>
+            <a href="https://www.dpm.org.cn/shows.html" target="_blank">
+              <img src="Act2.png" alt="Forbidden city">
+            </a>
+            <a href="https://www.kankanpiao.com/special/10038" target="_blank">
+                <img src="Act3.png" alt="Talk show">
+              </a>
+          </div>    
+          <div class="totop">
+            <a href="timeline.html">
+                <img src="refresh.png" alt="Refresh page">
+              </a>
+          </div>
+        </div>
+    <img src="bottom.png" alt="Background" class="BG">
+  </body>
+</html>

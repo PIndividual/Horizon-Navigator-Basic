@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Discover | Horizon Navigator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    
+    
+    <div class="navbar">
+      <div class="logo">
+        <a href="index.html">
+          <img src="logo.png" alt="Logo" class="logo">
+        </a>
+      </div>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <!-- Since we are on the discover page, discover has the "active" class-->
+        <a href="discover.html" class="active">Discover</a>
+        <a href="timeline.html">Timeline</a>
+      </div>
+    </div>
+    <!-- By using the same class name with the home page, the layout design is also shared in css, which saves a ton of trouble re-coding the same stuff-->
+    <div class="Context">
+        <h1>Discover</h1>
+        <div class="choose">
+                <!-- Since these 2 paragraph serves as a 1 in 2 selector, they only affect the content below them-->
+                <!-- To replace a number of contents with the same design, I duplicated the current html file (discover.html) and rename it with discover2.html-->
+                <!-- The paragraph serves as a hyperlink to jump between discover.html and discover2.html-->
+                <a href="discover.html" class="chosen">
+                <p>Attractions</p>
+            </a>
+
+            <a href="discover2.html" class="unchosen">
+                <p>Festivals</p>
+            </a>
+
+        </div>
+        <div class="places">
+            <!-- To provide the user with better visual feedback on the element being selected, I put it within a new class "highlight" for better customisation-->
+            <p class="highlight">The Great Wall</p>
+            <p>The National Museum</p>
+            <p>The Summer Palace</p>
+            <p>Nanluogu Lane</p>
+            <p>Old Summer Palace</p>
+            <p>The National Library</p>
+        </div>
+    </div>
+    <div class="Description">
+        <div class="Destext">
+          <h1>The Great Wall</h1>
+          <p>The Great Wall of China is a series of fortifications that were built across the historical northern borders of ancient Chinese states and Imperial China as protection against various nomadic groups from the Eurasian Steppe.</p>
+        </div>
+        <div class="Desimage">
+          <img src="TGW.jpg" alt="image of The Great Wall">
+        </div>
+      </div>
+      <div class="totop">
+        <a href="https://www.beijing.gov.cn/renwen/rwzyd/gdwh/mtycc/202108/t20210805_2457343.html" target="_blank">
+            <img src="GO.png" alt="Jump to certain site">
+      </div>
+    <img src="bottom.png" alt="Background" class="BG">
+  </body>
+</html>

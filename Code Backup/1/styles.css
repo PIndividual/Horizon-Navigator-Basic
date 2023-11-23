@@ -1,0 +1,169 @@
+@font-face {
+  font-family: 'HarmonyOS';
+  src: url('HarmonyOS.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'TSYT';
+  src: url('TSYT.ttf') format('truetype');
+}
+
+.logo {
+  height: 100%; /* 或者根据需要调整 */
+  margin-right: auto; /* 这会推动所有其他元素到右边 */
+  height: 40px; /* 或者根据您的需求调整大小 */
+  width: auto; /* 保持logo的宽高比 */
+}
+
+.navbar {
+  display: flex; /* 使导航栏的元素可以使用flex布局 */
+  height: 40px;
+  background-color: #9A2C35;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-links {
+  margin-right: 40px;  /* 或者你希望的任何值 */
+  padding: 10px 0;
+}
+
+/* 添加导航链接样式 */
+.nav-links a {
+  color: white;
+  opacity: 0.8;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 20px;  /* 新添加的样式 */
+  margin-right: 20px; /* 新添加的样式 */
+}
+
+/* 改变鼠标悬停时的颜色 */
+.nav-links a:hover {
+  background-color: #E3C87D;
+  color: black;
+}
+
+/* 新添加的.active类样式 */
+.nav-links a.active {
+  font-weight: bold;
+  opacity: 1;
+  box-shadow: inset 0 -4px 0 #E3C87D;
+}
+
+.video-container {
+  position: relative; /* 设置为相对定位 */
+  width: 100%; /* 容器宽度 */
+  height: auto; /* 根据视频比例自动调整高度 */
+  /* 如果你想让视频填充整个容器，可能需要对视频进行一些样式调整 */
+}
+
+.video-container video {
+  display: block;
+  width: 100%;
+  height: auto;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+  /* 确保视频填充容器 */
+}
+
+.video-container vidTitle {
+  position: absolute; /* 这里修改了文字的锚点位置（针对整个视频） */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%); /* 这里针对新的锚点位置进行了微调 */
+  font-family: TSYT;
+  color: white;
+  white-space: nowrap;/*不要自动换行*/
+  font-size: 5vw;
+  /* 你的文本样式 */
+}
+
+.video-container vidSub {
+  position: absolute; /* 相对于视频容器绝对定位 */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%); /* 居中定位 */
+  font-family: HarmonyOS;
+  color: white;
+  font-size: 3vw;
+  /* 你的文本样式 */
+}
+
+h1{
+  font-family: TSYT, sans-serif;
+}
+
+h2{
+  font-family: HarmonyOS, sans-serif;
+  font-weight: 500;
+}
+
+.Description {
+  display: flex;
+  flex-direction: row; /* 保持这样以便水平布局 */
+  align-items: flex-start; /* 如果您希望项目在容器顶部对齐 */
+  justify-content: space-between; /* 这会在项目之间提供空间 */
+  margin: 0px;
+  padding: 3%; /* 可以按照需要调整上下内边距 */
+  background-color: #E3C87D;
+  flex-wrap: nowrap;
+}
+
+.Destext {
+  flex: 1; /* 可伸缩，占据剩余空间 */
+  padding-left: 50px;
+  padding-right: 50px;
+  max-width: 40%;
+}
+
+.Desimage {
+  flex: 1; /* 这将允许图片部分也是可伸缩的 */
+  padding-left: 20px;
+  /* 移除了 max-height: 100%; */
+  object-fit: cover; /* 控制图片如何填充容器 */
+}
+
+.Desimage img {
+  width: 100%; /* 确保图片响应式地填充其容器宽度 */
+  max-height: 50vh; /* 可选：限制图片的最大高度 */
+  object-fit: cover;
+  border-radius: 3%;
+  box-shadow: 0 4px 8px 1px rgba(0, 0, 0, 0.3);
+}
+
+/* 媒体查询，当屏幕宽度小于768px时 */
+@media screen and (max-width: 700px) {
+  .Description {
+    flex-direction: column;
+  }
+
+  .Destext, .Desimage {
+    /* 这会使文本和图片占据100%的容器宽度 */
+    max-width: 100%;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .Desimage img {
+    /* 可能还想调整图片在小屏幕上的显示方式 */
+    width: 100%; /* 让图片自动调整到容器的宽度 */
+    height: auto; /* 保持图片的宽高比 */
+  }
+}
+
+body {
+  font-family: 'HarmonyOS', sans-serif; /* 使用 HarmonyOS 字体，没有该字体时回退到系统默认的无衬线字体 */
+  margin: 0;
+  padding-top: 60px; /* 根据实际情况调整 */
+  background-color: #fcfaf5;
+}
+
