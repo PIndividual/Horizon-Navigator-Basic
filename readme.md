@@ -4,7 +4,7 @@
 ***Please be advised that as I'm introducing the capital city of China, the hyperlinks on this microsite will most likely be directed to a Mandarin page, use web translators if possible :)***
 
 ## Usage
-Lunch ```index.html``` with any modern browser
+Download the code from releases or manually zip them from files, lunch ```index.html``` with any modern browser or modify anything you like with a code editor.
 
 ## Implementation decisions
 
