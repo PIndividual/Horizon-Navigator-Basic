@@ -1,6 +1,5 @@
 # Horizon Navigator
 
-By Peter Qin, Unikey: yqin6553
 
 ***Please be advised that as I'm introducing the capital city of China, the hyperlinks on this microsite will most likely be directed to a Mandarin page, use web translators if possible :)***
 
