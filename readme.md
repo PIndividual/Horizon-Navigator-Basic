@@ -3,6 +3,9 @@
 
 ***Please be advised that as I'm introducing the capital city of China, the hyperlinks on this microsite will most likely be directed to a Mandarin page, use web translators if possible :)***
 
+## Usage
+Lunch ```index.html``` with any modern browser
+
 ## Implementation decisions
 
 This microsite is designed to serve as a simple guide for people travelling to Beijing for the first time, and it aims to provide a place where people can quickly learn about famous local attractions and customs as well as special events.
