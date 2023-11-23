@@ -93,39 +93,3 @@ And this line adds **colour and corner radius transition**.
 transition: background-color 0.3s ease, border-radius 0.3s ease;/*https://stackoverflow.com/questions/7048313/how-to-have-multiple-css-transitions-on-an-element*/
 ```
 
-## References
-
-* Afif, T. (2023, May 18).  *How to Create a Custom Range Slider Using CSS — SitePoint* . Www.sitepoint.com. https://www.sitepoint.com/css-custom-range-slider/
-* Beijing Water Authority. (2022, January 17).  *八一湖开启冰上嘉年华_工作动态_北京市水务局* . Swj.beijing.gov.cn. https://swj.beijing.gov.cn/swdt/swyw/202201/t20220117_2593271.html
-
-* emmby, hey. (2023, May 11).  *A tall building with a bird flying over it* . Unsplash.com. https://unsplash.com/photos/a-tall-building-with-a-bird-flying-over-it-yfco6U3snKo
-* 风嘲. (2019, March 19).  *Brown roof* . Unsplash.com. https://unsplash.com/photos/djcZLQrzL2Y
-
-* Ge, Y. (2020).  *从《吐槽大会》到《笑场》，脱口秀节目搅动喜剧演出市场* . Yicai.com. https://m.yicai.com/news/100551923.html
-* kaiyv, zhang. (2018, September 20).  *black high rise builcing* . Unsplash.com. https://unsplash.com/photos/9v_Nork6P1w
-
-* kaiyv, zhang. (2020, September 8).  *Brown and green building near body of water under blue sky during daytime* . Unsplash.com. https://unsplash.com/photos/alGTmO0KvJI
-* kaiyv, zhang. (2021, February 23).  *People walking on street near high rise buildings during night time* . Unsplash.com. https://unsplash.com/photos/vgLNs0TmeCY
-
-* Lu, H. (2017, October 24).  *Great Wall Of China, China* . Unsplash.com. https://unsplash.com/photos/_8EFj6ISA08
-* 卖橘子的heixin老板. (2017, April 9).  *北京图片城市剪影_民俗人文_生活方式-图行天下素材网* . Www.photophoto.cn. https://www.photophoto.cn/pic/23713936.html
-
-* Microsoft. (n.d.).  *Image Creator from Microsoft Bing* . Bing. https://www.bing.com/create
-* Mozilla. (n.d.-a).  *transition - CSS: Cascading Style Sheets | MDN* . Developer.mozilla.org. https://developer.mozilla.org/en-US/docs/Web/CSS/transition
-
-* Mozilla. (n.d.-b).  *Using CSS transitions - CSS: Cascading Style Sheets | MDN* . Developer.mozilla.org. https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions
-* Mozilla. (2023a, February 22).  *::-webkit-slider-thumb - CSS: Cascading Style Sheets | MDN* . Developer.mozilla.org. https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-slider-thumb
-
-* Mozilla. (2023b, October 6).  *overscroll-behavior - CSS: Cascading Style Sheets | MDN* . Developer.mozilla.org. https://developer.mozilla.org/en-US/docs/Web/CSS/overscroll-behavior
-* Mozilla. (2023c, October 14).  *: The Anchor element - HTML: HyperText Markup Language | MDN* . Developer.mozilla.org. https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#attr-href
-
-* Thoma, E., & Köberle, A. (2011, July 1). *How to have multiple CSS transitions on an element?* Stack Overflow. https://stackoverflow.com/questions/7048313/how-to-have-multiple-css-transitions-on-an-element
-* TOPYS. (2020, June 18).  *航拍北京｜TOPYS* . Www.youtube.com. https://www.youtube.com/watch?v=rbxBWDnQIZw
-
-* W3schools. (n.d.-a).  *HTML a target Attribute* . Www.w3schools.com. https://www.w3schools.com/tags/att_a_target.asp
-* W3schools. (n.d.-b).  *HTML video Tag* . Www.w3schools.com. https://www.w3schools.com/tags/tag_video.asp
-
-* Wandering Shadow Seeker. (2011, November 15).  *The Summer Palace Through My Lens* . Wandering Shadow Seeker. https://wanderingshadowseeker.wordpress.com/2011/11/15/the-summer-palace-through-my-lens/
-* Wikipedia Contributors. (2018, December 11).  *Great Wall of China* . Wikipedia; Wikimedia Foundation. https://en.wikipedia.org/wiki/Great_Wall_of_China
-
-* Wikipedia Contributors. (2019, May 9).  *Beijing* . Wikipedia; Wikimedia Foundation. https://en.wikipedia.org/wiki/Beijing
